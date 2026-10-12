@@ -3,6 +3,13 @@
 
 -- Povoando tbl_instituicao
 -- Povoando Tabelas Menores
+INSERT INTO tbl_artigo (titulo_artigo, idioma_artigo, dt_criacao)
+VALUES
+    ('A New Approach to Relational Database Optimization', 'EN', '2023-01-15 10:00:00'),
+    ('Análise de Desempenho em Bancos de Dados NoSQL', 'PT', '2023-02-20 14:30:00'),
+    ('Machine Learning Aplicado à Saúde Pública', 'PT', '2023-03-05 09:15:00'),
+    ('Evaluating Concurrency Control Algorithms', 'EN', '2023-04-10 16:45:00'),
+    ('El impacto de la Inteligencia Artificial en la Educación', 'ES', '2023-05-12 11:20:00');
 INSERT INTO tbl_evento (sg_evento, nm_evento, ds_evento) VALUES
 ('SBES', 'Simpósio Brasileiro de Engenharia de Software', 'O maior evento de ES da América Latina.'),
 ('SBBD', 'Simpósio Brasileiro de Banco de Dados', 'Evento oficial da SBC sobre Bancos de Dados.'),
